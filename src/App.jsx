@@ -1,11 +1,11 @@
-import MapPage from "./pages/MapPage"
+import Home from "./pages/Home"
 
-function App() {
-	return (
-		<>
-			<MapPage />
-		</>
-	)
+const App = () => {
+    return (
+        <>
+            <Home />
+        </>
+    )
 }
 
 export default App
