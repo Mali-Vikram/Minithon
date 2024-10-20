@@ -1,5 +1,9 @@
+import Alert from "./pages/Alert"
+
 function App() {
-    return <></>
+    return <>
+        <Alert />
+    </>
 }
 
 export default App
