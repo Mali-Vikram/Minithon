@@ -1,9 +1,12 @@
-import Alert from "./pages/Alert"
 
-function App() {
-    return <>
-        <Alert />
-    </>
+import Home from "./pages/Home"
+
+const App = () => {
+    return (
+        <>
+            <Home />
+        </>
+    )
 }
 
 export default App

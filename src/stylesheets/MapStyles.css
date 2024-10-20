@@ -1,0 +1,38 @@
+/* Style for the wind arrow */
+.wind-arrow {
+    font-size: 24px;
+    display: inline-block;
+    transition: transform 0.5s ease; /* Smooth rotation */
+}
+
+/* Animation based on wind speed (higher speed = faster animation) */
+@keyframes windAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Customize the popups */
+.leaflet-popup-content-wrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.leaflet-popup-tip {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.leaflet-popup-content {
+    color: #333;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+}
+
+.leaflet-popup-content strong {
+    font-weight: bold;
+    color: #333;
+}
