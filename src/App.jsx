@@ -1,5 +1,11 @@
+import MapPage from "./pages/MapPage"
+
 function App() {
-    return <></>
+	return (
+		<>
+			<MapPage />
+		</>
+	)
 }
 
 export default App
